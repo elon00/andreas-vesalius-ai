@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "andreas-vesalius-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "VESALIUS",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "verify_musculoskeletal_origin_insertion",
+          "description": "Validates exact biomechanical force levers across human skeletal articulation points",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "muscle_group": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "muscle_group"
+            ]
+          }
+        },
+        {
+          "name": "audit_galenic_anatomical_errors",
+          "description": "Cross-checks observational human cadavre findings against historical animal extrapolations",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "organ_structure": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "organ_structure"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
