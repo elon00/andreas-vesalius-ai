@@ -1,0 +1,14 @@
+{
+  "project": "andreas-vesalius-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "EJu3Ckeby3ytYma1P1aFBQGdypeBTFhGnT8CUCoeyahm",
+  "vault_account": "4RXHGmjZxU6A81ZnkN16839UMZycenrY2ACs93NCzzG7",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "3KpyhUxyd3ea1Q5AwwwFrWcVN7MyxEeC1A39NL7ojm7LD5URsv4vy7zejiXPWLqJDS54J1b5MRGsVSr4reRf3BrR",
+  "account_tx": "383P5ep69RiARnBnyZVRCeZ88Rys9ZRTthg7NpmtXUZtBrkYr1xNhaiyjTWERA1fC5svWmT69UtTsy7NVYcUgWsw",
+  "mint_tx": "2ihq31T3kkpYiVJQwvVbrSujoqSyrkcfH5kpgLNowVPF772oPSF1BFEvxwPqp1WH4kuTJTExWYV2XNHmQE1f6v46",
+  "solana_explorer_mint": "https://explorer.solana.com/address/EJu3Ckeby3ytYma1P1aFBQGdypeBTFhGnT8CUCoeyahm?cluster=devnet",
+  "timestamp": "2026-10-26 16:18:02 UTC"
+}
